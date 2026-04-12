@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>X-TRA COOL — Jasa Service AC Tercepat & Terpercaya di Bogor</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16531357547"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-16531357547');
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16531357547"></script>
+  <script>
+    gtag('event', 'conversion', {
+      'send_to': 'AW-16531357547/68njCJf44Y8cEOv-4co9'
+    });
+  </script>
+  <link rel="icon" type="image/png" href="xtracool_favicon.png" />
+  <meta name="description"
+    content="X-TRA COOL melayani cuci AC, perbaikan AC, dan pemasangan AC dengan teknisi profesional, jujur, dan bergaransi. Panggil teknisi kami hari ini!" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+          colors: {
+            brand: { DEFAULT: '#1A3263', light: '#60A5FA', dark: '#2563EB' }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* ---------- base ---------- */
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+
+    /* ---------- scroll-reveal ---------- */
+    .reveal {
+      opacity: 0;
+      transform: translateY(32px);
+      transition: opacity .7s cubic-bezier(.22, 1, .36, 1), transform .7s cubic-bezier(.22, 1, .36, 1);
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ---------- button hover glow ---------- */
+    .btn-glow {
+      position: relative;
+      overflow: hidden;
+      transition: box-shadow .3s ease, transform .15s ease;
+    }
+
+    .btn-glow:hover {
+      box-shadow: 0 0 24px rgba(59, 130, 246, .45);
+      transform: translateY(-2px);
+    }
+
+    .btn-glow:active {
+      transform: translateY(0);
+    }
+
+    /* ---------- outline button ---------- */
+    .btn-outline {
+      transition: background .25s ease, color .25s ease, transform .15s ease;
+    }
+
+    .btn-outline:hover {
+      background: #3B82F6;
+      color: #fff;
+      transform: translateY(-2px);
+    }
+
+    .btn-outline:active {
+      transform: translateY(0);
+    }
+
+    /* ---------- card lift ---------- */
+    .card-lift {
+      transition: transform .3s ease, box-shadow .3s ease;
+    }
+
+    .card-lift:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 36px rgba(59, 130, 246, .12);
+    }
+
+    /* ---------- mobile nav slide ---------- */
+    #mobile-menu {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .35s ease;
+    }
+
+    #mobile-menu.open {
+      max-height: 400px;
+    }
+
+    /* ---------- hamburger morph ---------- */
+    .ham-line {
+      transition: transform .3s ease, opacity .2s ease;
+    }
+
+    .ham-active .ham-line:nth-child(1) {
+      transform: translateY(7px) rotate(45deg);
+    }
+
+    .ham-active .ham-line:nth-child(2) {
+      opacity: 0;
+    }
+
+    .ham-active .ham-line:nth-child(3) {
+      transform: translateY(-7px) rotate(-45deg);
+    }
+
+    /* ---------- gradient text ---------- */
+    .gradient-text {
+      /* Menggunakan #1A3263 (brand) dan #60A5FA (brand-light) agar sama dengan tombol */
+      background: linear-gradient(135deg, #1A3263 0%, #60A5FA 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      display: inline-block;
+      /* Memastikan gradient merender dengan sempurna */
+    }
+
+    /* ---------- sticky header shadow on scroll ---------- */
+    .header-scrolled {
+      box-shadow: 0 2px 20px rgba(0, 0, 0, .06);
+    }
+
+    /* ---------- subtle pulse badge ---------- */
+    @keyframes pulse-ring {
+      0% {
+        transform: scale(.9);
+        opacity: 1;
+      }
+
+      80% {
+        transform: scale(1.35);
+        opacity: 0;
+      }
+
+      100% {
+        transform: scale(1.35);
+        opacity: 0;
+      }
+    }
+
+    .pulse-ring::before {
+      content: '';
+      position: absolute;
+      inset: -4px;
+      border-radius: 50%;
+      border: 2px solid #3B82F6;
+      animation: pulse-ring 2s ease-out infinite;
+    }
+
+    /* ---------- whatsapp floating button ---------- */
+    .wa-float {
+      transition: transform .25s ease, box-shadow .25s ease;
+    }
+
+    .wa-float:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 28px rgba(37, 211, 102, .45);
+    }
+
+    /* ---------- brand marquee ---------- */
+    .marquee-track {
+      display: flex;
+      width: max-content;
+      animation: marquee 30s linear infinite;
+    }
+
+    .marquee-track:hover {
+      animation-play-state: paused;
+    }
+
+    @keyframes marquee {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+    .brand-logo {
+      transition: filter .3s ease, transform .3s ease;
+      filter: grayscale(100%) opacity(0.5);
+    }
+
+    .brand-logo:hover {
+      filter: grayscale(0%) opacity(1);
+      transform: scale(1.1);
+    }
+
+    /* ---------- gallery ---------- */
+    .gallery-item {
+      transition: transform .4s cubic-bezier(.22, 1, .36, 1), box-shadow .4s ease;
+      cursor: pointer;
+    }
+
+    .gallery-item:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 20px 50px rgba(59, 130, 246, .15);
+    }
+
+    .gallery-item img {
+      transition: transform .5s cubic-bezier(.22, 1, .36, 1);
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.08);
+    }
+
+    .gallery-overlay {
+      opacity: 0;
+      transition: opacity .35s ease;
+    }
+
+    .gallery-item:hover .gallery-overlay {
+      opacity: 1;
+    }
+
+    /* Filter tabs */
+    .filter-tab {
+      transition: all .25s ease;
+    }
+
+    .filter-tab.active {
+      background: linear-gradient(135deg, #3B82F6 0%, #60A5FA 100%);
+      color: #fff;
+      box-shadow: 0 4px 14px rgba(59, 130, 246, .35);
+    }
+
+    .filter-tab:not(.active):hover {
+      background: #EFF6FF;
+      color: #3B82F6;
+    }
+
+    /* Lightbox */
+    .lightbox {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .3s ease;
+    }
+
+    .lightbox.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .lightbox-img {
+      max-height: 85vh;
+      max-width: 90vw;
+      object-fit: contain;
+      border-radius: 12px;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, .5);
+      transition: transform .3s ease;
+    }
+
+    .lightbox.open .lightbox-img {
+      transform: scale(1);
+    }
+
+    .lightbox-nav {
+      transition: background .2s ease, transform .15s ease;
+    }
+
+    .lightbox-nav:hover {
+      background: rgba(255, 255, 255, .25);
+      transform: scale(1.1);
+    }
+
+    /* Gallery grid animation */
+    .gallery-grid-item {
+      transition: opacity .5s ease, transform .5s ease;
+    }
+
+    .gallery-grid-item.hidden-item {
+      opacity: 0;
+      transform: scale(0.8);
+      position: absolute;
+      pointer-events: none;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800 antialiased">
+
+  <!-- ============================================================
+       HEADER / NAVBAR
+       ============================================================ -->
+  <header id="header" class="fixed inset-x-0 top-0 z-50 bg-[#d2e3ef] backdrop-blur-md transition-shadow duration-300">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 lg:px-8">
+      <a href="#" class="flex items-center">
+        <img src="xtracool_nav.png" alt="X-TRA COOL Logo"
+          class="h-10 w-auto sm:h-12 md:h-14 lg:h-16 object-contain transition-transform duration-300 hover:scale-105">
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden items-center gap-8 md:flex">
+        <a href="#layanan" class="text-sm font-medium text-gray-600 hover:text-brand transition-colors">Cuci AC</a>
+        <a href="#layanan" class="text-sm font-medium text-gray-600 hover:text-brand transition-colors">Pasang AC</a>
+        <a href="#layanan" class="text-sm font-medium text-gray-600 hover:text-brand transition-colors">Perbaikan AC</a>
+        <a href="#galeri" class="text-sm font-medium text-gray-600 hover:text-brand transition-colors">Galeri</a>
+        <a href="#kontak" class="text-sm font-medium text-gray-600 hover:text-brand transition-colors">Kontak</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <!-- Call Now CTA -->
+        <a href="tel:+6289516611419" id="call-now-btn"
+          class="btn-glow inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-brand to-brand-light px-5 py-2 text-sm font-semibold text-white shadow-md">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+          <span class="hidden sm:inline">Call Now</span>
+        </a>
+
+        <!-- Hamburger -->
+        <button id="hamburger" class="relative flex h-9 w-9 flex-col items-center justify-center gap-[5px] md:hidden"
+          aria-label="Toggle menu">
+          <span class="ham-line block h-[2px] w-5 rounded-full bg-gray-700"></span>
+          <span class="ham-line block h-[2px] w-5 rounded-full bg-gray-700"></span>
+          <span class="ham-line block h-[2px] w-5 rounded-full bg-gray-700"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav -->
+    <nav id="mobile-menu" class="border-t border-gray-100 md:hidden">
+      <div class="flex flex-col px-4 py-2">
+        <a href="#layanan"
+          class="mobile-link block py-3 text-sm font-medium text-gray-700 hover:text-brand transition-colors">❄️ Cuci
+          AC</a>
+        <a href="#layanan"
+          class="mobile-link block py-3 text-sm font-medium text-gray-700 hover:text-brand transition-colors border-t border-gray-50">🔧
+          Perbaikan AC</a>
+        <a href="#layanan"
+          class="mobile-link block py-3 text-sm font-medium text-gray-700 hover:text-brand transition-colors border-t border-gray-50">📦
+          Pasang AC</a>
+        <a href="#galeri"
+          class="mobile-link block py-3 text-sm font-medium text-gray-700 hover:text-brand transition-colors border-t border-gray-50">📸
+          Galeri</a>
+        <a href="#kontak"
+          class="mobile-link block py-3 text-sm font-medium text-gray-700 hover:text-brand transition-colors border-t border-gray-50">📞
+          Kontak</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       HERO SECTION
+       ============================================================ -->
+  <section id="hero" class="relative overflow-hidden pt-24 md:pt-32 lg:pt-36">
+    <!-- Decorative blobs -->
+    <div class="pointer-events-none absolute -left-32 -top-32 h-[420px] w-[420px] rounded-full bg-brand/5 blur-3xl">
+    </div>
+    <div
+      class="pointer-events-none absolute -right-32 bottom-0 h-[340px] w-[340px] rounded-full bg-brand-light/10 blur-3xl">
+    </div>
+
+    <div
+      class="mx-auto grid max-w-7xl items-center gap-10 px-6 sm:px-10 lg:px-16 pb-16 md:grid-cols-2 md:gap-16 lg:pb-24">
+      <!-- Text Column -->
+      <div class="order-2 md:order-1">
+        <span
+          class="reveal mb-4 inline-block rounded-full bg-brand/10 px-4 py-1 text-xs font-semibold uppercase tracking-wider text-brand">
+          #Service AC Terpercaya di Bogor
+        </span>
+        <h1 class="reveal mt-2 text-4xl font-extrabold leading-tight text-gray-900 sm:text-5xl lg:text-6xl">
+          Bikin Ruanganmu <span class="gradient-text">X-TRA COOL!</span>
+        </h1>
+        <p class="reveal mt-2 text-lg font-bold text-gray-700 sm:text-xl">
+          Jasa Service AC Tercepat &amp; Terpercaya.
+        </p>
+        <p class="reveal mt-4 max-w-lg text-base leading-relaxed text-gray-500 sm:text-lg">
+          Kami melayani cuci, perbaikan, dan pemasangan AC dengan teknisi profesional, jujur, dan bergaransi. Panggil
+          teknisi kami hari ini juga!
+        </p>
+        <div class="reveal mt-8 flex flex-wrap gap-4">
+          <a href="https://wa.me/6283115946575?text=Halo%20X-TRA%20COOL,%20saya%20ingin%20konsultasi%20terkait%20service%20AC"
+            target="_blank" rel="noopener"
+            class="wa-conversion-btn btn-glow inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-brand to-brand-light px-7 py-3 text-sm font-semibold text-white shadow-lg">
+            <!-- WhatsApp icon -->
+            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+            </svg>
+            Hubungi Teknisi via WhatsApp
+          </a>
+          <a href="#layanan"
+            class="btn-outline inline-flex items-center gap-2 rounded-full border-2 border-brand px-7 py-3 text-sm font-semibold text-brand">
+            Lihat Layanan Kami
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Trust badges -->
+        <div class="reveal mt-10 flex flex-wrap items-center gap-6 text-xs font-medium text-gray-400">
+          <span class="flex items-center gap-1.5">
+            <svg class="h-4 w-4 text-brand" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd" />
+            </svg>
+            Garansi 30 Hari
+          </span>
+          <span class="flex items-center gap-1.5">
+            <svg class="h-4 w-4 text-brand" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd" />
+            </svg>
+            Respon Cepat
+          </span>
+          <span class="flex items-center gap-1.5">
+            <svg class="h-4 w-4 text-brand" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd" />
+            </svg>
+            Teknisi Bersertifikat
+          </span>
+        </div>
+      </div>
+
+      <div class="reveal order-1 flex justify-center md:order-2">
+        <div class="relative w-full max-w-sm sm:max-w-md flex items-center justify-center lg:justify-end">
+
+          <div class="relative w-full max-w-lg lg:max-w-2xl flex items-center justify-center lg:justify-end">
+
+            <div class="absolute -inset-10 rounded-full bg-blue-200/30 blur-3xl"></div>
+
+            <div class="relative z-10 flex items-center justify-center group transition-all duration-500 ease-out">
+
+              <div
+                class="relative transition-transform duration-700 ease-out transform scale-100 group-hover:scale-110">
+                <img src="image_hero_work.png" alt="X-TRA COOL Service AC"
+                  class="w-full h-auto object-contain rounded-xl">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES SECTION
+       ============================================================ -->
+  <section id="layanan" class="bg-gray-50/60 py-16 md:py-24">
+    <div class="mx-auto max-w-7xl px-4 lg:px-8">
+      <div class="mx-auto mb-12 max-w-2xl text-center md:mb-16">
+        <span
+          class="reveal mb-3 inline-block rounded-full bg-brand/10 px-4 py-1 text-xs font-semibold uppercase tracking-wider text-brand">
+          Apa Yang Kami Tawarkan
+        </span>
+        <h2 class="reveal mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">
+          Layanan Utama Kami
+        </h2>
+        <p class="reveal mt-4 text-base text-gray-500 sm:text-lg">
+          Solusi lengkap untuk semua kebutuhan AC Anda — dari perawatan rutin hingga perbaikan mendesak.
+        </p>
+      </div>
+
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <!-- Card 1 — Cuci AC -->
+        <div class="reveal card-lift group rounded-2xl border border-gray-100 bg-white p-8 text-center shadow-sm">
+          <div
+            class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-brand/10 text-3xl transition-colors group-hover:bg-brand group-hover:text-white">
+            🔧
+          </div>
+          <h3 class="mb-2 text-lg font-bold text-gray-900">Service AC</h3>
+          <p class="text-sm leading-relaxed text-gray-500">
+            AC bocor, berisik, atau cuma keluar angin? Tenang, teknisi kami jago diagnosa dan benerin sampai tuntas.
+          </p>
+          <a href="https://wa.me/6283115946575?text=Halo,%20X-tra Cool!" target="_blank" rel="noopener"
+            class="mt-6 inline-flex items-center gap-1 text-sm font-semibold text-brand transition-colors hover:text-brand-dark">
+            Pesan Sekarang
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Card 2 — Perbaikan AC -->
+        <div class="reveal card-lift group rounded-2xl border border-gray-100 bg-white p-8 text-center shadow-sm">
+          <div
+            class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-brand/10 text-3xl transition-colors group-hover:bg-brand group-hover:text-white">
+            ❄️
+          </div>
+          <h3 class="mb-2 text-lg font-bold text-gray-900">Cuci AC</h3>
+          <p class="text-sm leading-relaxed text-gray-500">
+            AC mulai gerah dan bau? Mandiin dulu yuk biar dinginnya maksimal, udara makin sehat, dan listrik nggak
+            jebol!
+          </p>
+          <a href="https://wa.me/6283115946575?text=Halo%20X-TRA%20COOL,%20saya%20ingin%20konsultasi%20terkait%20service%20AC"
+            target="_blank" rel="noopener"
+            class="mt-6 inline-flex items-center gap-1 text-sm font-semibold text-brand transition-colors hover:text-brand-dark">
+            Pesan Sekarang
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Card 3 — Pasang & Bongkar AC -->
+        <div
+          class="reveal card-lift group rounded-2xl border border-gray-100 bg-white p-8 text-center shadow-sm sm:col-span-2 lg:col-span-1">
+          <div
+            class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-brand/10 text-3xl transition-colors group-hover:bg-brand group-hover:text-white">
+            📦
+          </div>
+          <h3 class="mb-2 text-lg font-bold text-gray-900">Instalasi AC</h3>
+          <p class="text-sm leading-relaxed text-gray-500">
+            Baru beli AC atau mau pindah posisi? Kami bantu pasang dengan rapi, aman, dan pastinya gak asal-asalan.
+          </p>
+          <a href="https://wa.me/6283115946575?text=Halo%20X-TRA%20COOL,%20saya%20ingin%20konsultasi%20terkait%20service%20AC"
+            target="_blank" rel="noopener"
+            class="mt-6 inline-flex items-center gap-1 text-sm font-semibold text-brand transition-colors hover:text-brand-dark">
+            Pesan Sekarang
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
+        </div>
+
+        <div
+          class="reveal card-lift group rounded-2xl border border-gray-100 bg-white p-8 text-center shadow-sm sm:col-span-2 lg:col-span-1">
+          <div
+            class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-brand/10 text-3xl transition-colors group-hover:bg-brand group-hover:text-white">
+            🛒
+          </div>
+          <h3 class="mb-2 text-lg font-bold text-gray-900">Pengadaan Unit</h3>
+          <p class="text-sm leading-relaxed text-gray-500">
+            Lagi cari AC baru? Konsultasi dulu aja! Kami sediakan unit terbaik yang sesuai budget dan kebutuhan
+            ruanganmu.
+          </p>
+          <a href="https://wa.me/6283115946575?text=Halo%20X-TRA%20COOL,%20saya%20ingin%20konsultasi%20terkait%20service%20AC"
+            target="_blank" rel="noopener"
+            class="mt-6 inline-flex items-center gap-1 text-sm font-semibold text-brand transition-colors hover:text-brand-dark">
+            Pesan Sekarang
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       STATISTICS SECTION
+       ============================================================ -->
+  <section id="statistik" class="relative overflow-hidden py-16 md:py-24">
+    <!-- Decorative background gradient -->
+    <div class="absolute inset-0 bg-gradient-to-r from-brand to-brand-light"></div>
+    <!-- Subtle pattern overlay -->
+    <div class="absolute inset-0 opacity-10"
+      style="background-image: url('data:image/svg+xml,%3Csvg width=&quot;60&quot; height=&quot;60&quot; viewBox=&quot;0 0 60 60&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;%3E%3Cg fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;%3E%3Cg fill=&quot;%23ffffff&quot; fill-opacity=&quot;1&quot;%3E%3Cpath d=&quot;M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z&quot;/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');">
+    </div>
+
+    <div class="relative mx-auto max-w-7xl px-4 lg:px-8">
+      <div class="mx-auto mb-12 max-w-2xl text-center md:mb-16">
+        <span
+          class="reveal mb-3 inline-block rounded-full bg-white/20 px-4 py-1 text-xs font-semibold uppercase tracking-wider text-white">
+          Pengalaman Kami
+        </span>
+        <h2 class="reveal mt-2 text-3xl font-extrabold text-white sm:text-4xl">
+          Dipercaya Ribuan Pelanggan
+        </h2>
+        <p class="reveal mt-4 text-base text-blue-100 sm:text-lg">
+          Angka yang berbicara — bukti nyata dedikasi kami dalam melayani kebutuhan AC Anda.
+        </p>
+      </div>
+
+      <div class="grid gap-8 sm:grid-cols-4">
+        <div
+          class="reveal flex flex-col items-center rounded-2xl bg-white/10 px-6 py-10 text-center backdrop-blur-sm ring-1 ring-white/20">
+          <div class="mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-white/20 text-2xl">
+            🔧
+          </div>
+          <div class="flex items-baseline">
+            <span class="count-up text-4xl font-extrabold text-white sm:text-5xl" data-target="2500">0</span>
+            <span class="ml-1 text-2xl font-bold text-white">+</span>
+          </div>
+          <p class="mt-3 text-sm font-medium text-blue-100">Perbaikan AC Selesai</p>
+        </div>
+
+        <div
+          class="reveal flex flex-col items-center rounded-2xl bg-white/10 px-6 py-10 text-center backdrop-blur-sm ring-1 ring-white/20">
+          <div class="mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-white/20 text-2xl">
+            📦
+          </div>
+          <div class="flex items-baseline">
+            <span class="count-up text-4xl font-extrabold text-white sm:text-5xl" data-target="1800">0</span>
+            <span class="ml-1 text-2xl font-bold text-white">+</span>
+          </div>
+          <p class="mt-3 text-sm font-medium text-blue-100">Instalasi AC Terpasang</p>
+        </div>
+
+        <div
+          class="reveal flex flex-col items-center rounded-2xl bg-white/10 px-6 py-10 text-center backdrop-blur-sm ring-1 ring-white/20">
+          <div class="mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-white/20 text-2xl">
+            ❄️
+          </div>
+          <div class="flex items-baseline">
+            <span class="count-up text-4xl font-extrabold text-white sm:text-5xl" data-target="5000">0</span>
+            <span class="ml-1 text-2xl font-bold text-white">+</span>
+          </div>
+          <p class="mt-3 text-sm font-medium text-blue-100">Pembersihan AC Dilakukan</p>
+        </div>
+
+        <div
+          class="reveal flex flex-col items-center rounded-2xl bg-white/10 px-6 py-10 text-center backdrop-blur-sm ring-1 ring-white/20">
+          <div class="mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-white/20 text-2xl">
+            🛒
+          </div>
+          <div class="flex items-baseline">
+            <span class="count-up text-4xl font-extrabold text-white sm:text-5xl" data-target="1250">0</span>
+            <span class="ml-1 text-2xl font-bold text-white">+</span>
+          </div>
+          <p class="mt-3 text-sm font-medium text-blue-100">Unit AC Terdistribusi</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ADVANTAGES SECTION
+       ============================================================ -->
+  <section id="keunggulan" class="py-16 md:py-24">
+    <div class="mx-auto max-w-7xl px-4 lg:px-8">
+      <div class="mx-auto mb-12 max-w-2xl text-center md:mb-16">
+        <span
+          class="reveal mb-3 inline-block rounded-full bg-brand/10 px-4 py-1 text-xs font-semibold uppercase tracking-wider text-brand">
+          Keunggulan Kami
+        </span>
+        <h2 class="reveal mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">
+          Mengapa Memilih X-TRA COOL?
+        </h2>
+        <p class="reveal mt-4 text-base text-gray-500 sm:text-lg">
+          Kami berkomitmen memberikan layanan terbaik dengan standar profesional tinggi.
+        </p>
+      </div>
+
+      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <!-- Advantage 1 -->
+        <div class="reveal flex flex-col items-center text-center">
+          <div class="mb-5 flex h-14 w-14 items-center justify-center rounded-xl bg-brand/10">
+            <svg class="h-7 w-7 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.746 3.746 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+            </svg>
+          </div>
+          <h3 class="mb-1.5 text-base font-bold text-gray-900">Teknisi Ahli &amp; Berpengalaman</h3>
+          <p class="text-sm leading-relaxed text-gray-500">Semua teknisi kami bersertifikat dan berpengalaman lebih dari
+            5 tahun.</p>
+        </div>
+
+        <!-- Advantage 2 -->
+        <div class="reveal flex flex-col items-center text-center">
+          <div class="mb-5 flex h-14 w-14 items-center justify-center rounded-xl bg-brand/10">
+            <svg class="h-7 w-7 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="mb-1.5 text-base font-bold text-gray-900">Respon Cepat 24 Jam</h3>
+          <p class="text-sm leading-relaxed text-gray-500">Hubungi kami kapan saja — teknisi datang dalam hitungan jam,
+            bukan hari.</p>
+        </div>
+
+        <!-- Advantage 3 -->
+        <div class="reveal flex flex-col items-center text-center">
+          <div class="mb-5 flex h-14 w-14 items-center justify-center rounded-xl bg-brand/10">
+            <svg class="h-7 w-7 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+            </svg>
+          </div>
+          <h3 class="mb-1.5 text-base font-bold text-gray-900">Layanan Bergaransi 30 Hari</h3>
+          <p class="text-sm leading-relaxed text-gray-500">Setiap pekerjaan kami bergaransi. Jika ada masalah, kami
+            kembali tanpa biaya tambahan.</p>
+        </div>
+
+        <!-- Advantage 4 -->
+        <div class="reveal flex flex-col items-center text-center">
+          <div class="mb-5 flex h-14 w-14 items-center justify-center rounded-xl bg-brand/10">
+            <svg class="h-7 w-7 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+            </svg>
+          </div>
+          <h3 class="mb-1.5 text-base font-bold text-gray-900">Harga Transparan</h3>
+          <p class="text-sm leading-relaxed text-gray-500">Tidak ada biaya tersembunyi — kami informasikan estimasi
+            biaya sebelum pengerjaan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BRANDS SECTION
+       ============================================================ -->
+  <section id="merk" class="bg-gray-50/60 py-16 md:py-24">
+    <div class="mx-auto max-w-7xl px-4 lg:px-8">
+      <div class="mx-auto mb-12 max-w-2xl text-center md:mb-16">
+        <span
+          class="reveal mb-3 inline-block rounded-full bg-brand/10 px-4 py-1 text-xs font-semibold uppercase tracking-wider text-brand">
+          Semua Merk AC
+        </span>
+        <h2 class="reveal mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">
+          Melayani Berbagai Merk AC
+        </h2>
+        <p class="reveal mt-4 text-base text-gray-500 sm:text-lg">
+          Apapun merk AC Anda, teknisi kami siap menangani dengan profesional dan bergaransi.
+        </p>
+      </div>
+
+      <!-- Marquee container -->
+      <div class="reveal relative overflow-hidden">
+        <!-- Fade edges -->
+        <div
+          class="pointer-events-none absolute inset-y-0 left-0 z-10 w-16 bg-gradient-to-r from-gray-50/60 to-transparent sm:w-24">
+        </div>
+        <div
+          class="pointer-events-none absolute inset-y-0 right-0 z-10 w-16 bg-gradient-to-l from-gray-50/60 to-transparent sm:w-24">
+        </div>
+
+        <div class="marquee-track">
+          <!-- First set -->
+          <div class="flex items-center gap-10 px-5 sm:gap-16 sm:px-8">
+            <div
+              class="flex h-16 w-32 flex-shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 shadow-sm ring-1 ring-gray-100 sm:h-20 sm:w-40">
+              <svg viewBox="0 0 120 32" class="brand-logo h-full w-full"><text x="60" y="23" text-anchor="middle"
+                  fill="#0B4EA2" font-size="20" font-weight="800" font-family="Inter, Arial, sans-serif"
+                  letter-spacing="2">DAIKIN</text></svg>
+            </div>
+            <div
+              class="flex h-16 w-32 flex-shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 shadow-sm ring-1 ring-gray-100 sm:h-20 sm:w-40">
+              <svg viewBox="0 0 140 32" class="brand-logo h-full w-full"><text x="70" y="23" text-anchor="middle"
+                  fill="#003B7A" font-size="17" font-weight="700" font-family="Inter, Arial, sans-serif"
+                  letter-spacing="1">Panasonic</text></svg>
+            </div>
+            <div
+              class="flex h-16 w-32 flex-shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 shadow-sm ring-1 ring-gray-100 sm:h-20 sm:w-40">
+              <svg viewBox="0 0 60 32" class="brand-logo h-full w-full">
+                <circle cx="30" cy="16" r="14" fill="none" stroke="#A50034" stroke-width="2" /><text x="30" y="22"
+                  text-anchor="middle" fill="#A50034" font-size="16" font-weight="800"
+                  font-family="Inter, Arial, sans-serif">LG</text>
+              </svg>
+            </div>
+            <div
+              class="flex h-16 w-32 flex-shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 shadow-sm ring-1 ring-gray-100 sm:h-20 sm:w-40">
+              <svg viewBox="0 0 140 32" class="brand-logo h-full w-full"><text x="70" y="23" text-anchor="middle"
+                  fill="#1428A0" font-size="16" font-weight="800" font-family="Inter, Arial, sans-serif"
+                  letter-spacing="3">SAMSUNG</text></svg>
+            </div>
+            <div
+              class="flex h-16 w-32 flex-shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 shadow-sm ring-1 ring-gray-100 sm:h-20 sm:w-40">
+              <svg viewBox="0 0 100 32" class="brand-logo h-full w-full"><text x="50" y="23" text-anchor="middle"
+                  fill="#E4002B" font-size="19" font-weight="800" font-family="Inter, Arial, sans-serif"
+                  letter-spacing="2">SHARP</text></svg>
+            </div>
+            <div
+              class="flex h-16 w-32 flex-shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 shadow-sm ring-1 ring-gray-100 sm:h-20 sm:w-40">
+              <svg viewBox="0 0 100 32" class="brand-logo h-full w-full"><text x="50" y="23" text-anchor="middle"
+                  fill="#0080DC" font-size="19" font-weight="700" font-family="Inter, Arial, sans-serif"
+                  letter-spacing="1">Midea</text></svg>
+            </div>
+            <div
+              class="flex h-16 w-32 flex-shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 shadow-sm ring-1 ring-gray-100 sm:h-20 sm:w-40">
+              <svg viewBox="0 0 90 32" class="brand-logo h-full w-full"><text x="45" y="23" text-anchor="middle"
+                  fill="#00843D" font-size="20" font-weight="800" font-family="Inter, Arial, sans-serif"
+                  letter-spacing="2">GREE</text></svg>
+            </div>
+            <div
+              class="flex h-16 w-32 flex-shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 shadow-sm ring-1 ring-gray-100 sm:h-20 sm:w-40">
+              <svg viewBox="0 0 140 36" class="brand-logo h-full w-full">
+                <!-- Three-diamond mark simplified -->
+                <g transform="translate(20,4)">
+                  <polygon points="8,0 16,14 0,14" fill="#E60012" />
+                  <polygon points="0,14 8,28 -8,28" fill="#E60012" transform="translate(0,0)" />
+                  <polygon points="16,14 24,28 8,28" fill="#E60012" />
+                </g>
+                <text x="90" y="24" text-anchor="middle" fill="#333" font-size="10" font-weight="700"
+                  font-family="Inter, Arial, sans-serif" letter-spacing="1">MITSUBISHI</text>
+              </svg>
+            </div>
+          </div>
+          <!-- Duplicate set for seamless loop -->
+          <div class="flex items-center gap-10 px-5 sm:gap-16 sm:px-8" aria-hidden="true">
+            <div
+              class="flex h-16 w-32 flex-shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 shadow-sm ring-1 ring-gray-100 sm:h-20 sm:w-40">
+              <svg viewBox="0 0 120 32" class="brand-logo h-full w-full"><text x="60" y="23" text-anchor="middle"
+                  fill="#0B4EA2" font-size="20" font-weight="800" font-family="Inter, Arial, sans-serif"
+                  letter-spacing="2">DAIKIN</text></svg>
+            </div>
+            <div
+              class="flex h-16 w-32 flex-shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 shadow-sm ring-1 ring-gray-100 sm:h-20 sm:w-40">
+              <svg viewBox="0 0 140 32" class="brand-logo h-full w-full"><text x="70" y="23" text-anchor="middle"
+                  fill="#003B7A" font-size="17" font-weight="700" font-family="Inter, Arial, sans-serif"
+                  letter-spacing="1">Panasonic</text></svg>
+            </div>
+            <div
+              class="flex h-16 w-32 flex-shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 shadow-sm ring-1 ring-gray-100 sm:h-20 sm:w-40">
+              <svg viewBox="0 0 60 32" class="brand-logo h-full w-full">
+                <circle cx="30" cy="16" r="14" fill="none" stroke="#A50034" stroke-width="2" /><text x="30" y="22"
+                  text-anchor="middle" fill="#A50034" font-size="16" font-weight="800"
+                  font-family="Inter, Arial, sans-serif">LG</text>
+              </svg>
+            </div>
+            <div
+              class="flex h-16 w-32 flex-shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 shadow-sm ring-1 ring-gray-100 sm:h-20 sm:w-40">
+              <svg viewBox="0 0 140 32" class="brand-logo h-full w-full"><text x="70" y="23" text-anchor="middle"
+                  fill="#1428A0" font-size="16" font-weight="800" font-family="Inter, Arial, sans-serif"
+                  letter-spacing="3">SAMSUNG</text></svg>
+            </div>
+            <div
+              class="flex h-16 w-32 flex-shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 shadow-sm ring-1 ring-gray-100 sm:h-20 sm:w-40">
+              <svg viewBox="0 0 100 32" class="brand-logo h-full w-full"><text x="50" y="23" text-anchor="middle"
+                  fill="#E4002B" font-size="19" font-weight="800" font-family="Inter, Arial, sans-serif"
+                  letter-spacing="2">SHARP</text></svg>
+            </div>
+            <div
+              class="flex h-16 w-32 flex-shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 shadow-sm ring-1 ring-gray-100 sm:h-20 sm:w-40">
+              <svg viewBox="0 0 100 32" class="brand-logo h-full w-full"><text x="50" y="23" text-anchor="middle"
+                  fill="#0080DC" font-size="19" font-weight="700" font-family="Inter, Arial, sans-serif"
+                  letter-spacing="1">Midea</text></svg>
+            </div>
+            <div
+              class="flex h-16 w-32 flex-shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 shadow-sm ring-1 ring-gray-100 sm:h-20 sm:w-40">
+              <svg viewBox="0 0 90 32" class="brand-logo h-full w-full"><text x="45" y="23" text-anchor="middle"
+                  fill="#00843D" font-size="20" font-weight="800" font-family="Inter, Arial, sans-serif"
+                  letter-spacing="2">GREE</text></svg>
+            </div>
+            <div
+              class="flex h-16 w-32 flex-shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 shadow-sm ring-1 ring-gray-100 sm:h-20 sm:w-40">
+              <svg viewBox="0 0 140 36" class="brand-logo h-full w-full">
+                <g transform="translate(20,4)">
+                  <polygon points="8,0 16,14 0,14" fill="#E60012" />
+                  <polygon points="0,14 8,28 -8,28" fill="#E60012" transform="translate(0,0)" />
+                  <polygon points="16,14 24,28 8,28" fill="#E60012" />
+                </g>
+                <text x="90" y="24" text-anchor="middle" fill="#333" font-size="10" font-weight="700"
+                  font-family="Inter, Arial, sans-serif" letter-spacing="1">MITSUBISHI</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WORK GALLERY SECTION
+       ============================================================ -->
+  <section id="galeri" class="py-16 md:py-24">
+    <div class="mx-auto max-w-7xl px-4 lg:px-8">
+      <div class="mx-auto mb-12 max-w-2xl text-center md:mb-16">
+        <span
+          class="reveal mb-3 inline-block rounded-full bg-brand/10 px-4 py-1 text-xs font-semibold uppercase tracking-wider text-brand">
+          Dokumentasi Pengerjaan
+        </span>
+        <h2 class="reveal mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">
+          Bukti Nyata Kualitas Kami
+        </h2>
+        <p class="reveal mt-4 text-base text-gray-500 sm:text-lg">
+          Lihat langsung foto-foto asli saat teknisi kami bekerja — dari pembersihan, perbaikan, hingga instalasi AC.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="reveal mb-10 flex flex-wrap justify-center gap-3">
+        <button class="filter-tab active rounded-full px-5 py-2 text-sm font-semibold" data-filter="all">Semua</button>
+        <button
+          class="filter-tab rounded-full border border-gray-200 bg-white px-5 py-2 text-sm font-semibold text-gray-600"
+          data-filter="cleaning">🧹 Pembersihan</button>
+        <button
+          class="filter-tab rounded-full border border-gray-200 bg-white px-5 py-2 text-sm font-semibold text-gray-600"
+          data-filter="repair">🔧 Perbaikan</button>
+        <button
+          class="filter-tab rounded-full border border-gray-200 bg-white px-5 py-2 text-sm font-semibold text-gray-600"
+          data-filter="installation">📦 Instalasi</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div id="gallery-grid" class="reveal grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Item 1 — Cuci AC -->
+        <div
+          class="gallery-grid-item gallery-item group relative overflow-hidden rounded-2xl bg-white shadow-md ring-1 ring-gray-100"
+          data-category="cleaning" data-index="0">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img src="photo/ac_cleaning_work.jpeg" alt="Proses cuci AC oleh teknisi X-TRA COOL"
+              class="h-full w-full object-cover" loading="lazy" />
+          </div>
+          <div
+            class="gallery-overlay absolute inset-0 flex flex-col items-center justify-end bg-gradient-to-t from-gray-900/80 via-gray-900/20 to-transparent p-6">
+            <span class="mb-1 inline-block rounded-full bg-brand/90 px-3 py-1 text-xs font-bold text-white">Pembersihan
+              AC</span>
+            <p class="text-center text-sm font-medium text-white/90">Cuci AC indoor dengan tekanan tinggi — hasil bersih
+              maksimal</p>
+          </div>
+        </div>
+
+        <!-- Item 2 — Perbaikan AC -->
+        <div
+          class="gallery-grid-item gallery-item group relative overflow-hidden rounded-2xl bg-white shadow-md ring-1 ring-gray-100"
+          data-category="repair" data-index="1">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img src="photo/ac_repair_work.jpeg" alt="Proses perbaikan AC oleh teknisi X-TRA COOL"
+              class="h-full w-full object-cover" loading="lazy" />
+          </div>
+          <div
+            class="gallery-overlay absolute inset-0 flex flex-col items-center justify-end bg-gradient-to-t from-gray-900/80 via-gray-900/20 to-transparent p-6">
+            <span class="mb-1 inline-block rounded-full bg-brand/90 px-3 py-1 text-xs font-bold text-white">Perbaikan
+              AC</span>
+            <p class="text-center text-sm font-medium text-white/90">Diagnosa & perbaikan komponen AC dengan alat
+              profesional</p>
+          </div>
+        </div>
+
+        <!-- Item 3 — Instalasi AC -->
+        <div
+          class="gallery-grid-item gallery-item group relative overflow-hidden rounded-2xl bg-white shadow-md ring-1 ring-gray-100"
+          data-category="installation" data-index="2">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img src="photo/ac_installation_work.jpeg" alt="Proses instalasi AC outdoor oleh teknisi X-TRA COOL"
+              class="h-full w-full object-cover" loading="lazy" />
+          </div>
+          <div
+            class="gallery-overlay absolute inset-0 flex flex-col items-center justify-end bg-gradient-to-t from-gray-900/80 via-gray-900/20 to-transparent p-6">
+            <span class="mb-1 inline-block rounded-full bg-brand/90 px-3 py-1 text-xs font-bold text-white">Instalasi
+              AC</span>
+            <p class="text-center text-sm font-medium text-white/90">Pemasangan unit outdoor AC dengan bracket yang
+              kokoh</p>
+          </div>
+        </div>
+
+        <!-- Item 4 — Filter Cleaning -->
+        <div
+          class="gallery-grid-item gallery-item group relative overflow-hidden rounded-2xl bg-white shadow-md ring-1 ring-gray-100"
+          data-category="cleaning" data-index="3">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img src="photo/ac_filter_cleaning.jpg" alt="Pembersihan filter AC" class="h-full w-full object-cover"
+              loading="lazy" />
+          </div>
+          <div
+            class="gallery-overlay absolute inset-0 flex flex-col items-center justify-end bg-gradient-to-t from-gray-900/80 via-gray-900/20 to-transparent p-6">
+            <span class="mb-1 inline-block rounded-full bg-brand/90 px-3 py-1 text-xs font-bold text-white">Pembersihan
+              Filter</span>
+            <p class="text-center text-sm font-medium text-white/90">Cuci filter AC untuk udara bersih & bebas bakteri
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 5 — Brazing Pipa -->
+        <div
+          class="gallery-grid-item gallery-item group relative overflow-hidden rounded-2xl bg-white shadow-md ring-1 ring-gray-100"
+          data-category="installation" data-index="4">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img src="photo/ac_pipe_brazing.jpeg" alt="Proses brazing pipa tembaga AC"
+              class="h-full w-full object-cover" loading="lazy" />
+          </div>
+          <div
+            class="gallery-overlay absolute inset-0 flex flex-col items-center justify-end bg-gradient-to-t from-gray-900/80 via-gray-900/20 to-transparent p-6">
+            <span class="mb-1 inline-block rounded-full bg-brand/90 px-3 py-1 text-xs font-bold text-white">Instalasi
+              Pipa</span>
+            <p class="text-center text-sm font-medium text-white/90">Penyambungan pipa tembaga dengan teknik brazing
+              profesional</p>
+          </div>
+        </div>
+
+        <!-- Item 6 — Hasil Instalasi -->
+        <div
+          class="gallery-grid-item gallery-item group relative overflow-hidden rounded-2xl bg-white shadow-md ring-1 ring-gray-100"
+          data-category="installation" data-index="5">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img src="photo/ac_finished_install.png" alt="Hasil instalasi AC baru" class="h-full w-full object-cover"
+              loading="lazy" />
+          </div>
+          <div
+            class="gallery-overlay absolute inset-0 flex flex-col items-center justify-end bg-gradient-to-t from-gray-900/80 via-gray-900/20 to-transparent p-6">
+            <span class="mb-1 inline-block rounded-full bg-brand/90 px-3 py-1 text-xs font-bold text-white">Hasil
+              Instalasi</span>
+            <p class="text-center text-sm font-medium text-white/90">Hasil pemasangan AC rapi dan siap digunakan</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="reveal mt-12 text-center">
+        <p class="mb-4 text-sm text-gray-500">
+          Semua foto di atas adalah dokumentasi asli pengerjaan oleh tim X-TRA COOL.
+        </p>
+        <a href="https://wa.me/6283115946575?text=Halo%20X-TRA%20COOL,%20saya%20ingin%20konsultasi%20terkait%20service%20AC"
+          target="_blank" rel="noopener"
+          class="btn-glow inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-brand to-brand-light px-7 py-3 text-sm font-semibold text-white shadow-lg">
+          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+          </svg>
+          Hubungi Kami Sekarang
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox"
+    class="lightbox fixed inset-0 z-[100] flex items-center justify-center bg-black/90 backdrop-blur-sm">
+    <button id="lightbox-close"
+      class="absolute right-4 top-4 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-sm"
+      aria-label="Tutup">
+      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+    <button id="lightbox-prev"
+      class="lightbox-nav absolute left-4 z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-sm"
+      aria-label="Sebelumnya">
+      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+      </svg>
+    </button>
+    <img id="lightbox-img" class="lightbox-img" src="" alt="" />
+    <button id="lightbox-next"
+      class="lightbox-nav absolute right-4 z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-sm"
+      aria-label="Selanjutnya">
+      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+      </svg>
+    </button>
+    <div id="lightbox-caption"
+      class="absolute bottom-6 left-1/2 -translate-x-1/2 rounded-xl bg-black/60 px-5 py-2.5 text-center backdrop-blur-sm">
+      <p id="lightbox-label" class="text-sm font-semibold text-white"></p>
+      <p id="lightbox-desc" class="mt-0.5 text-xs text-white/70"></p>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       CONTACT SECTION
+       ============================================================ -->
+  <section id="kontak" class="py-16 md:py-24">
+    <div class="mx-auto max-w-3xl px-4 text-center lg:px-8">
+      <span
+        class="reveal mb-3 inline-block rounded-full bg-brand/10 px-4 py-1 text-xs font-semibold uppercase tracking-wider text-brand">
+        Hubungi Kami
+      </span>
+      <h2 class="reveal mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">
+        Butuh Bantuan Segera?
+      </h2>
+      <p class="reveal mt-4 text-base text-gray-500 sm:text-lg">
+        Tim kami siap membantu Anda 24 jam. Hubungi melalui WhatsApp atau email di bawah ini.
+      </p>
+
+      <div class="reveal mt-10 flex flex-col items-center gap-5 sm:flex-row sm:justify-center sm:gap-6">
+        <!-- WhatsApp Link -->
+        <a href="https://wa.me/6283115946575?text=Halo%20X-TRA%20COOL,%20saya%20ingin%20konsultasi%20terkait%20service%20AC"
+          target="_blank" rel="noopener"
+          class="wa-conversion-btn btn-glow inline-flex w-full items-center justify-center gap-3 rounded-2xl bg-gradient-to-r from-brand to-brand-light px-8 py-4 text-base font-semibold text-white shadow-lg sm:w-auto">
+          <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+          </svg>
+          WhatsApp: 0831-1594-6575
+        </a>
+
+        <!-- Email Link -->
+        <a href="mailto:info@xtracool.id"
+          class="btn-outline inline-flex w-full items-center justify-center gap-3 rounded-2xl border-2 border-brand px-8 py-4 text-base font-semibold text-brand sm:w-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+            stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+          </svg>
+          Xtracoolbogor@gmail.com
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="border-t border-gray-100 bg-white py-12">
+    <div class="mx-auto max-w-7xl px-4 text-center lg:px-8">
+      <div class="flex justify-center mb-6">
+        <img src="xtracool_nav.png" alt="X-TRA COOL Logo"
+          class="h-20 w-auto object-contain transition-transform duration-300 hover:scale-105">
+      </div>
+
+      <p class="mt-2 text-sm font-semibold text-gray-600">Spesialis Service AC Terpercaya</p>
+      <p class="mt-6 text-xs text-gray-400 tracking-wide">&copy; 2026 X-TRA COOL. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       FLOATING WHATSAPP BUTTON
+       ============================================================ -->
+  <a href="https://wa.me/6283115946575?text=Halo%20X-TRA%20COOL,%20saya%20ingin%20konsultasi%20terkait%20service%20AC"
+    target="_blank" rel="noopener"
+    class="wa-conversion-btn wa-float fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-lg"
+    aria-label="Chat via WhatsApp">
+    <svg class="h-7 w-7" fill="currentColor" viewBox="0 0 24 24">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+    </svg>
+  </a>
+
+  <!-- ============================================================
+       JAVASCRIPT
+       ============================================================ -->
+  <script>
+    // ---------- Mobile menu toggle ----------
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('ham-active');
+      mobileMenu.classList.toggle('open');
+    });
+
+    // Close menu when a mobile link is clicked
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('ham-active');
+        mobileMenu.classList.remove('open');
+      });
+    });
+
+    // 1. Fungsi bawaan resmi dari Google Ads
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url; // Membuka aplikasi telepon setelah data terkirim
+        }
+      };
+      
+      // Pastikan gtag sudah dimuat oleh browser
+      if (typeof gtag !== 'undefined') {
+          gtag('event', 'conversion', {
+              'send_to': 'AW-16531357547/RezTCJT44Y8cEOv-4co9',
+              'value': 1.0,
+              'currency': 'IDR',
+              'event_callback': callback
+          });
+      } else {
+          callback(); // Fallback jika Google Ads terblokir (misal oleh AdBlock)
+      }
+      return false;
+    }
+
+    // 2. Memicu fungsi di atas saat tombol/link telepon diklik
+    document.querySelectorAll('a[href^="tel:"]').forEach(button => {
+      button.addEventListener('click', function (e) {
+        e.preventDefault(); // Tahan dulu klik aslinya
+        const url = this.getAttribute('href'); // Ambil nomor telepon (misal: tel:+628...)
+        gtag_report_conversion(url); // Kirim ke fungsi Google
+      });
+    });
+
+    // ---------- Header shadow on scroll ----------
+    const header = document.getElementById('header');
+    const onScroll = () => {
+      header.classList.toggle('header-scrolled', window.scrollY > 10);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    // ---------- Scroll Reveal ----------
+    const revealElements = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+          // Stagger by 80ms per element within viewport batch
+          setTimeout(() => {
+            entry.target.classList.add('visible');
+          }, index * 80);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.12,
+      rootMargin: '0px 0px -40px 0px'
+    });
+
+    revealElements.forEach(el => observer.observe(el));
+
+    // ---------- Count-Up Animation ----------
+    const countUpElements = document.querySelectorAll('.count-up');
+
+    function animateCount(el) {
+      const target = parseInt(el.getAttribute('data-target'), 10);
+      const duration = 2000; // ms
+      const start = performance.now();
+
+      function easeOutQuart(t) {
+        return 1 - Math.pow(1 - t, 4);
+      }
+
+      function tick(now) {
+        const elapsed = now - start;
+        const progress = Math.min(elapsed / duration, 1);
+        const value = Math.floor(easeOutQuart(progress) * target);
+        el.textContent = value.toLocaleString('id-ID');
+        if (progress < 1) {
+          requestAnimationFrame(tick);
+        } else {
+          el.textContent = target.toLocaleString('id-ID');
+        }
+      }
+
+      requestAnimationFrame(tick);
+    }
+
+    const countObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCount(entry.target);
+          countObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.3 });
+
+    countUpElements.forEach(el => countObserver.observe(el));
+
+    // ---------- Gallery Filter ----------
+    const filterTabs = document.querySelectorAll('.filter-tab');
+    const galleryItems = document.querySelectorAll('.gallery-grid-item');
+
+    filterTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        // Update active tab
+        filterTabs.forEach(t => {
+          t.classList.remove('active');
+          t.classList.add('border', 'border-gray-200', 'bg-white', 'text-gray-600');
+        });
+        tab.classList.add('active');
+        tab.classList.remove('border', 'border-gray-200', 'bg-white', 'text-gray-600');
+
+        const filter = tab.getAttribute('data-filter');
+
+        galleryItems.forEach(item => {
+          if (filter === 'all' || item.getAttribute('data-category') === filter) {
+            item.classList.remove('hidden-item');
+            item.style.position = '';
+          } else {
+            item.classList.add('hidden-item');
+            // Delay setting position absolute for smooth transition
+            setTimeout(() => {
+              if (item.classList.contains('hidden-item')) {
+                item.style.position = 'absolute';
+              }
+            }, 500);
+          }
+        });
+      });
+    });
+
+    // ---------- Lightbox ----------
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxLabel = document.getElementById('lightbox-label');
+    const lightboxDesc = document.getElementById('lightbox-desc');
+    const lightboxClose = document.getElementById('lightbox-close');
+    const lightboxPrev = document.getElementById('lightbox-prev');
+    const lightboxNext = document.getElementById('lightbox-next');
+    let currentLightboxIndex = 0;
+    let visibleItems = [];
+
+    function getVisibleItems() {
+      return Array.from(galleryItems).filter(item => !item.classList.contains('hidden-item'));
+    }
+
+    function openLightbox(index) {
+      visibleItems = getVisibleItems();
+      currentLightboxIndex = index;
+      updateLightbox();
+      lightbox.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function updateLightbox() {
+      const item = visibleItems[currentLightboxIndex];
+      if (!item) return;
+      const img = item.querySelector('img');
+      const label = item.querySelector('.gallery-overlay span');
+      const desc = item.querySelector('.gallery-overlay p');
+      lightboxImg.src = img.src;
+      lightboxImg.alt = img.alt;
+      lightboxLabel.textContent = label ? label.textContent : '';
+      lightboxDesc.textContent = desc ? desc.textContent : '';
+    }
+
+    function nextLightbox() {
+      currentLightboxIndex = (currentLightboxIndex + 1) % visibleItems.length;
+      updateLightbox();
+    }
+
+    function prevLightbox() {
+      currentLightboxIndex = (currentLightboxIndex - 1 + visibleItems.length) % visibleItems.length;
+      updateLightbox();
+    }
+
+    // Click on gallery items to open lightbox
+    galleryItems.forEach((item) => {
+      item.addEventListener('click', () => {
+        const currentVisible = getVisibleItems();
+        const idx = currentVisible.indexOf(item);
+        openLightbox(idx >= 0 ? idx : 0);
+      });
+    });
+
+    lightboxClose.addEventListener('click', closeLightbox);
+    lightboxPrev.addEventListener('click', prevLightbox);
+    lightboxNext.addEventListener('click', nextLightbox);
+
+    // Close on background click
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) closeLightbox();
+    });
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (!lightbox.classList.contains('open')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowRight') nextLightbox();
+      if (e.key === 'ArrowLeft') prevLightbox();
+    });
+  </script>
+</body>
+
+</html>
